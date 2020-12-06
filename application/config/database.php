@@ -76,6 +76,7 @@ $query_builder = TRUE;
 $db['default'] = array(
 	'dsn'	=> '',
 	'hostname' => 'localhost',
+	'port' => 3307, 
 	'username' => 'ci_user',
 	'password' => 'ci_pw',
 	'database' => 'cidb',
