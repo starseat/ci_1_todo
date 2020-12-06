@@ -76,12 +76,12 @@ $query_builder = TRUE;
 $db['default'] = array(
 	'dsn'	=> '',
 	'hostname' => 'localhost',
-	'username' => '',
-	'password' => '',
-	'database' => '',
+	'username' => 'ci_user',
+	'password' => 'ci_pw',
+	'database' => 'cidb',
 	'dbdriver' => 'mysqli',
 	'dbprefix' => '',
-	'pconnect' => FALSE,
+	'pconnect' => FALSE,  // 웹호스팅 환경에서는 TRUE일 경우 데이터베이스 접속 X
 	'db_debug' => (ENVIRONMENT !== 'production'),
 	'cache_on' => FALSE,
 	'cachedir' => '',
