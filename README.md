@@ -1,2 +1,6 @@
 # ci_1_todo
-first ci project (todo list)
+ - php CodeIgniter
+ - first ci project (todo list)
+ 
+ ci version: CodeIgniter-3.1.11
+ - download: https://codeigniter.com/download
