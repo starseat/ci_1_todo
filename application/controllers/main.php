@@ -1,9 +1,10 @@
-<?php if ( ! defined('BASEPATH')) exist('No direct script access allowed');  // 이거는 그냥 복붙해서 계속 쓰기
+<?php if (!defined('BASEPATH')) exit('No direct script access allowed');  // 이거는 그냥 복붙해서 계속 쓰기
 
 /**
  * todo controller
  */
-class Main extends CI_Controller {  // 클래스명은 파일명과 동일하게 맞춰줘야함.
+class Main extends CI_Controller // 클래스명은 파일명과 동일하게 맞춰줘야함.
+{ 
     // 생성자
     function __construct()
     {
